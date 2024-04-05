@@ -1,10 +1,5 @@
-<!DOCTYPE html><html lang="en" data-critters-container><head>
-  <meta charset="utf-8">
-  <title>TomMurphyDevPortfolio</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"><style ng-app-id="ng">[_nghost-ng-c3177019257] {
+import './polyfills.server.mjs';
+import{a as o,b as i,c as r,d as l,e as a,f as c,m as p,o as g,p as m,s,w as d,z as h}from"./chunk-6S4HCYZY.mjs";var f=(()=>{let n=class n{constructor(){this.title="TomMurphyDevPortfolio"}};n.\u0275fac=function(e){return new(e||n)},n.\u0275cmp=o({type:n,selectors:[["app-root"]],standalone:!0,features:[c],decls:4,vars:0,template:function(e,_){e&1&&(i(0,"div")(1,"h1"),a(2,"Welcome to WooHOO"),r()(),l(3,"router-outlet"))},dependencies:[d],styles:[`[_nghost-%COMP%] {
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
     --french-violet: oklch(47.66% 0.246 305.88);
@@ -40,7 +35,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1[_ngcontent-ng-c3177019257] {
+  h1[_ngcontent-%COMP%] {
     font-size: 3.125rem;
     color: var(--gray-900);
     font-weight: 500;
@@ -52,12 +47,12 @@
       "Segoe UI Symbol";
   }
 
-  p[_ngcontent-ng-c3177019257] {
+  p[_ngcontent-%COMP%] {
     margin: 0;
     color: var(--gray-700);
   }
 
-  main[_ngcontent-ng-c3177019257] {
+  main[_ngcontent-%COMP%] {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -68,11 +63,11 @@
     position: relative;
   }
 
-  .angular-logo[_ngcontent-ng-c3177019257] {
+  .angular-logo[_ngcontent-%COMP%] {
     max-width: 9.2rem;
   }
 
-  .content[_ngcontent-ng-c3177019257] {
+  .content[_ngcontent-%COMP%] {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -80,21 +75,21 @@
     margin-bottom: 3rem;
   }
 
-  .content[_ngcontent-ng-c3177019257]   h1[_ngcontent-ng-c3177019257] {
+  .content[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {
     margin-top: 1.75rem;
   }
 
-  .content[_ngcontent-ng-c3177019257]   p[_ngcontent-ng-c3177019257] {
+  .content[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {
     margin-top: 1.5rem;
   }
 
-  .divider[_ngcontent-ng-c3177019257] {
+  .divider[_ngcontent-%COMP%] {
     width: 1px;
     background: var(--red-to-pink-to-purple-vertical-gradient);
     margin-inline: 0.5rem;
   }
 
-  .pill-group[_ngcontent-ng-c3177019257] {
+  .pill-group[_ngcontent-%COMP%] {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -102,7 +97,7 @@
     gap: 1.25rem;
   }
 
-  .pill[_ngcontent-ng-c3177019257] {
+  .pill[_ngcontent-%COMP%] {
     display: flex;
     align-items: center;
     --pill-accent: var(--bright-blue);
@@ -122,55 +117,50 @@
     text-decoration: none;
   }
 
-  .pill[_ngcontent-ng-c3177019257]:hover {
+  .pill[_ngcontent-%COMP%]:hover {
     background: color-mix(in srgb, var(--pill-accent) 15%, transparent);
   }
 
-  .pill-group[_ngcontent-ng-c3177019257]   .pill[_ngcontent-ng-c3177019257]:nth-child(6n + 1) {
+  .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 1) {
     --pill-accent: var(--bright-blue);
   }
-  .pill-group[_ngcontent-ng-c3177019257]   .pill[_ngcontent-ng-c3177019257]:nth-child(6n + 2) {
+  .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 2) {
     --pill-accent: var(--french-violet);
   }
-  .pill-group[_ngcontent-ng-c3177019257]   .pill[_ngcontent-ng-c3177019257]:nth-child(6n + 3), .pill-group[_ngcontent-ng-c3177019257]   .pill[_ngcontent-ng-c3177019257]:nth-child(6n + 4), .pill-group[_ngcontent-ng-c3177019257]   .pill[_ngcontent-ng-c3177019257]:nth-child(6n + 5) {
+  .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 3), .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 4), .pill-group[_ngcontent-%COMP%]   .pill[_ngcontent-%COMP%]:nth-child(6n + 5) {
     --pill-accent: var(--hot-red);
   }
 
-  .pill-group[_ngcontent-ng-c3177019257]   svg[_ngcontent-ng-c3177019257] {
+  .pill-group[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%] {
     margin-inline-start: 0.25rem;
   }
 
-  .social-links[_ngcontent-ng-c3177019257] {
+  .social-links[_ngcontent-%COMP%] {
     display: flex;
     align-items: center;
     gap: 0.73rem;
     margin-top: 1.5rem;
   }
 
-  .social-links[_ngcontent-ng-c3177019257]   path[_ngcontent-ng-c3177019257] {
+  .social-links[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {
     transition: fill 0.3s ease;
     fill: var(--gray-400);
   }
 
-  .social-links[_ngcontent-ng-c3177019257]   a[_ngcontent-ng-c3177019257]:hover   svg[_ngcontent-ng-c3177019257]   path[_ngcontent-ng-c3177019257] {
+  .social-links[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover   svg[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {
     fill: var(--gray-900);
   }
 
   @media screen and (max-width: 650px) {
-    .content[_ngcontent-ng-c3177019257] {
+    .content[_ngcontent-%COMP%] {
       flex-direction: column;
       width: max-content;
     }
 
-    .divider[_ngcontent-ng-c3177019257] {
+    .divider[_ngcontent-%COMP%] {
       height: 1px;
       width: 100%;
       background: var(--red-to-pink-to-purple-horizontal-gradient);
       margin-block: 1.5rem;
     }
-  }</style></head>
-<body><!--nghm-->
-  <app-root _nghost-ng-c3177019257 ng-version="17.3.3" ngh="0" ng-server-context="ssg"><div _ngcontent-ng-c3177019257><h1 _ngcontent-ng-c3177019257>Welcome to WooHOO</h1></div><router-outlet _ngcontent-ng-c3177019257></router-outlet><!----></app-root>
-<script src="polyfills-RT5I6R6G.js" type="module"></script><script src="main-ZJIJ54D6.js" type="module"></script>
-
-<script id="ng-state" type="application/json">{"__nghData__":[{"c":{"3":[]}}]}</script></body></html>
+  }`]});let t=n;return t})();var v=[];var u={providers:[h(v),m()]};var O={providers:[s()]},C=p(u,O);var P=()=>g(f,C),D=P;export{D as a};
