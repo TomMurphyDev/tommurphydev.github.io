@@ -31,15 +31,15 @@
               "src/assets/images"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
             "production": {
+              "optimization": true,
+              "aot": true,
               "budgets": [
                 {
                   "type": "initial",
